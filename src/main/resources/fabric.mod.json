@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "easy-unlimited-magic",
+	"version": "${version}",
+	"name": "Easy Unlimited Magic",
+	"description": "An extension to Easy Magic by Fuzs which adds compatibility for mods adding more powerful bookshelves.",
+	"authors": [
+		"Z_cC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/easy-unlimited-magic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"z_cc.easy_unlimited_magic.EasyUnlimitedMagic"
+		],
+		"client": [
+			"z_cc.easy_unlimited_magic.EasyUnlimitedMagicClient"
+		]
+	},
+	"mixins": [
+		"easy-unlimited-magic.mixins.json",
+		{
+			"config": "easy-unlimited-magic.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
