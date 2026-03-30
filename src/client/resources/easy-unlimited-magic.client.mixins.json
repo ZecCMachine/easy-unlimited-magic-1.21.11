@@ -3,7 +3,6 @@
 	"package": "z_cc.easy_unlimited_magic.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

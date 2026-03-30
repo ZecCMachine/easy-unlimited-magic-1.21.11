@@ -33,8 +33,6 @@
 		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*",
-		"puzzelslib": "21.11.12",
-		"forgeconfigapiport": "21.11.1",
 		"easymagic": "21.11.0"
 	}
 }
