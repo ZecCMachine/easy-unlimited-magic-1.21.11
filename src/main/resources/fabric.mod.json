@@ -8,8 +8,7 @@
 		"Z_cC"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ZecCMachine/easy-unlimited-magic-1.21.11"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/easy-unlimited-magic/icon.png",
@@ -33,6 +32,9 @@
 		"fabricloader": ">=0.18.5",
 		"minecraft": "~1.21.11",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"puzzelslib": "21.11.12",
+		"forgeconfigapiport": "21.11.1",
+		"easymagic": "21.11.0"
 	}
 }
