@@ -1,0 +1,1 @@
+This is an expansion for Easy Magic by Fuzs to allow for higher level bookshelves and enchantment level costs.  Basically just a couple lines of code to expand that mod.  All credit to actual functionality goes to Fuzs and his excellent mods.
