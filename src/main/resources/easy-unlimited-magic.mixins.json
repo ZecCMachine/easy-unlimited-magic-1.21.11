@@ -3,11 +3,17 @@
 	"package": "z_cc.easy_unlimited_magic.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"UnlimitEnchantingPower",
+		"UnlimitEnchantingCost"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"overwrites": {
 		"requireAnnotations": true
+	},
+	"mixinextras": 
+	{
+		"minVersion": "0.5.3"
 	}
 }

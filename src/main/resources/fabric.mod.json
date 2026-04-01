@@ -34,5 +34,8 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"easymagic": "21.11.0"
+	},
+	"suggests": {
+		"beyondenchant": "*"
 	}
 }
